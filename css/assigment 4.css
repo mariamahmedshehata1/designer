@@ -1,0 +1,261 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .container1{
+ background-image: url(../imge/slider-01.jpg); 
+ height:100vh;
+ width:100%;
+ background-size:cover;
+ padding: 0;
+ margin: 0; 
+ position: relative;
+ 
+}
+.container1.background2{
+background-color:#0A0A0A ;
+position: relative;
+height:100vh;
+background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.layer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+
+/* navbar */
+.navbar{
+    font-family: 'Source Sans Pro', sans-serif;;
+
+}
+.logo h2{
+color:#FF305B;
+margin-right: 50;
+padding:0 50;
+}
+.logo{
+    float:left;
+    font-weight:500;
+    margin:0 90;
+    padding:0 50;
+}
+.links{
+    float:right;
+    margin: 0 100;
+    padding:0 50;
+    color: white;
+}
+.links .home{
+    color:#FF305B ;
+}
+.links a:hover{
+color: #FF305B;
+}
+.links li{
+    float: left;
+    margin:10 10;
+}
+/* contant */
+.contant{
+    text-align: center;
+    
+    margin:230 0;
+    padding:50 0;
+}
+.contant h2{
+    color:white;
+    margin:0 0;
+}
+.contant h1{
+    color: #FF305B;
+font-size:70;
+font-weight:bold;
+margin: 0 0;
+}
+.contant h4{
+    color: white;
+   font-size:25;
+   margin:0 0;
+}
+/* p2 */
+/* img */
+.p2{
+    background-color: aqua;
+
+}
+.img img{
+    margin-top: 130;
+    margin-left:300 ;
+}
+.img_border{
+    background-color: aqua;
+    width:50;
+    height:30;
+    border:20 grey solid ;
+}
+.ul span{
+    font-weight:500  ;
+}
+.blog{
+    background-color:#eee;
+    height: 700px;
+    width: 100%;
+   margin-top: 30px;
+ }
+.blog-head{
+    margin:25px auto;
+    width: 50%;
+    height: 100px;
+}
+.blog-head h2{
+    text-align: center;
+    font-weight:800 ;
+    font-size:40px ;
+    line-height:25px ;
+    color: #383838;
+    padding-top: 80px;
+    padding-bottom: 15px;
+ }
+ .blog-text{
+    height: 500px;
+    margin-top: 65px;
+ }
+ .blog-vi{
+    width: 30%;
+   height: 200px;
+   float: left;
+
+ }
+ .blog-image img{
+   width:100%;
+ }
+ .blog-content{
+padding-top: 20px;
+   padding-bottom: 25PX;
+   padding-left: 25px;
+   background-color:white
+ }
+ .blog-content h5{
+    padding-bottom: 20px;
+    color: #868686;
+ }
+ .blog-content h3 a{
+    text-decoration: none;
+    color: #333333;
+ }
+ .blog-content h3:hover a{
+    color: #ff305b;
+    transition: all ease 100ms;
+ }
+ .blog-content p{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #555555;
+    padding-bottom: 25px;
+ }
+ .more{
+    text-decoration:none;
+    color: #333333;
+ }
+ .more:hover{
+    color: #ff305b;
+    transition: all ease 100ms;
+ }
+ .blog-content i{
+    font-size: 16px;
+    color: #818080;
+ }
+ .blog-v{
+  width: 26%;
+  height: 450px;
+  position: absolute;
+  left: 36%;
+ }
+ .blog-video iframe{
+width: 99%;
+height: 210px;
+ }
+
+.blog-vo{
+    width: 32%;
+    height: 450px;
+    margin-right: 10px;
+    float: right;
+}
+.blog-vo .blog-image img{
+    height: 210px;
+}
+
+.button{
+    padding-top: 15px;
+ width: 20%;
+ margin-left: auto;
+ }
+ .button button{
+     padding: 10px;
+     border-radius: 7px;
+     background-color: transparent;
+     color:red ;
+     font-size: 20px;
+     border: 2px solid  #17a2b8 ;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .button button:hover{
+     color: white;
+     background-color:#17a2b8 ;
+ }
+
+
+ .Get-In-Touch .line-Get-In-Touch{
+    width: 635px;
+    height: 1.5px;
+    background-color: #999;
+}
+.Get-In-Touch h2{
+    max-width:500px ;
+}
+.Get-In-Touch .form-floating {
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+}
+.Get-In-Touch {
+    background-color: #FAFAFA;
+}
+.Get-In-Touch .btn{
+    border: 3px ;
+    border-radius: 3px;
+    padding:18px 30px;
+    background-color: #f25454;
+    font-weight: 700;
+    color: white;
+}
+.Get-In-Touch .btn:hover{
+    border: solid black;
+    background-color:#F38383;
+}
+ 
